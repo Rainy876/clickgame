@@ -65,3 +65,8 @@ function fillWidget(store, widget) {
     overlaySlide.style.animationDuration = `${store.getAttribute("cooldown")}s`;
     widget.appendChild(overlaySlide);
 }
+
+function updateStore (store) {
+    store.children [2].innerHTML = `${store.getAttribute("cost")} points`
+    
+}

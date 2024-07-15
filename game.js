@@ -8,8 +8,10 @@ function buy(store) {
         alert("Insufficient funds");
         return;
     }
-
+    document.getElementById('villager').play();
     changeScore(-1 * cost);
+    store.setAttribute("cost", cost+1)
+    updateStore(store)
 
     var widget = document.createElement("div");
     widget.classList.add("widget");
