@@ -68,7 +68,7 @@ h1, h2 {
 /* If the widget is a click widget */
 .widget:not([auto="true"]) {
     background-color: rgba(50, 205, 50, 0);
-    border: 3px solid white;
+    border: 3px solid black ;
 }
 
 /* Widget with text */
